@@ -8,7 +8,7 @@ function checkPropInObj(str, obj) {
   return (str in obj);  
 }
 
-let str = 'hello';
+const  str = 'hello';
 const obj = {str: 'world'};
 console.log('str' in obj); //проверяет свойство с данным именем, in возвращает true если свойство есть
 
