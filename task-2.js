@@ -13,5 +13,17 @@ const obj = {str: 'world'};
 console.log('str' in obj); //проверяет свойство с данным именем, in возвращает true если свойство есть
 
 checkPropInObj(str, obj);   
-
 //Функция возвращает значение
+
+/////////////////////////////
+
+function checkPropInObj(str, obj) { 
+  console.log(str, obj); 
+  return (str in obj);  
+}
+
+let str ='hello';
+let obj = {a: 'world'}
+console.log('str' in obj);
+
+checkPropInObj(str, obj);
