@@ -12,7 +12,7 @@ const  str = 'hello';
 const obj = {str: 'world'};
 console.log('str' in obj); //проверяет свойство с данным именем, in возвращает true если свойство есть
 
-checkPropInObj(str, obj);   
+checkPropInObj(str, obj); // будет true, т.к. у объекта есть свойство с именем str  
 //Функция возвращает значение
 
 /////////////////////////////
@@ -26,4 +26,4 @@ let str ='hello';
 let obj = {a: 'world'}
 console.log('str' in obj);
 
-checkPropInObj(str, obj);
+checkPropInObj(str, obj); // будет false, т.к. у свойства объекта имя а, а не str
